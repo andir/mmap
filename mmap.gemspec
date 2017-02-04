@@ -5,7 +5,7 @@ require 'mmap/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mmap"
-  spec.version       = MmapVersion::VERSION
+  spec.version       = Mmap::VERSION
   spec.authors       = ["Guy Decoux", "Aaron Patterson"]
   spec.email         = ["ts@moulon.inra.fr", "tenderlove@github.com"]
   spec.description   = %q{The Mmap class implement memory-mapped file objects}
