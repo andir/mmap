@@ -10,8 +10,6 @@ class Mmap
   include Comparable
   include Enumerable
 
-  VERSION = MmapVersion::VERSION
-
   def clone # :nodoc:
     raise TypeError, "can't clone instance of #{self.class}"
   end

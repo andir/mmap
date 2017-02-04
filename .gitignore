@@ -2,3 +2,5 @@ pkg/
 *.bundle
 Gemfile.lock
 tmp/
+/Makefile
+/mkmf.log
