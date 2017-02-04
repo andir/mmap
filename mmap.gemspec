@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/tenderlove/mmap"
   spec.license       = "https://www.ruby-lang.org/en/about/license.txt"
 
-  spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.files         = `git ls-files Changes README.rdoc ext lib mmap.rd`.split
+  spec.executables   = [ ]
+  spec.test_files    = `git ls-files b.rb test`.split
   spec.extensions    = [ "ext/mmap/extconf.rb" ]
   spec.require_paths = ["lib"]
 
