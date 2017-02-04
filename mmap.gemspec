@@ -1,11 +1,8 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mmap'
 
 Gem::Specification.new do |spec|
   spec.name          = "mmap"
-  spec.version       = Mmap::VERSION
+  spec.version       = '0.2.7'
   spec.authors       = ["Guy Decoux", "Aaron Patterson"]
   spec.email         = ["ts@moulon.inra.fr", "tenderlove@github.com"]
   spec.description   = %q{The Mmap class implement memory-mapped file objects}
