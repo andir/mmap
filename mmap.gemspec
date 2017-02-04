@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'mmap/version'
 
-Gem::Specification.new do |spec|
+Mmap::GEMSPEC = Gem::Specification.new do |spec|
   spec.name          = "mmap"
   spec.version       = MmapVersion::VERSION
   spec.authors       = ["Guy Decoux", "Aaron Patterson"]
