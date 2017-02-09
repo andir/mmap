@@ -6,11 +6,11 @@
 # === The variables $' and $` are not available with gsub! and sub!
 require 'mmap/mmap'
 
-class Mmap
+module Mmap
   include Comparable
   include Enumerable
 
-  VERSION = MmapVersion::VERSION
+  VERSION = Mmap::VERSION
 
   def clone # :nodoc:
     raise TypeError, "can't clone instance of #{self.class}"

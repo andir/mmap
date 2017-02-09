@@ -3,7 +3,7 @@ require File.expand_path('../lib/mmap/version', __FILE__)
 
 Mmap::GEMSPEC = Gem::Specification.new do |spec|
   spec.name          = "mmap"
-  spec.version       = MmapVersion::VERSION
+  spec.version       = Mmap::VERSION
   spec.authors       = ["Guy Decoux", "Aaron Patterson"]
   spec.license       = "Ruby"
   spec.email         = ["ts@moulon.inra.fr", "tenderlove@github.com"]
