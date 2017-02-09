@@ -4,3 +4,4 @@ Gemfile.lock
 tmp/
 /Makefile
 /mkmf.log
+mmap-*.gem

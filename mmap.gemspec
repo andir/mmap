@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Guy Decoux", "Aaron Patterson"]
   spec.email         = ["ts@moulon.inra.fr", "tenderlove@github.com"]
   spec.description   = %q{The Mmap class implement memory-mapped file objects}
-  spec.summary       = %q{The Mmap class implement memory-mapped file objects}
+  spec.summary       = %q{The Mmap class}
   spec.homepage      = "https://github.com/tenderlove/mmap"
-  spec.license       = "https://www.ruby-lang.org/en/about/license.txt"
+  spec.license       = "Ruby"
 
   spec.files         = `git ls-files Changes README.rdoc ext lib mmap.rd`.split
   spec.executables   = [ ]
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.extensions    = [ "ext/mmap/extconf.rb" ]
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "rake-compiler"
-  spec.add_development_dependency "hoe"
+  spec.add_development_dependency "rake", "~> 0"
+  spec.add_development_dependency "rake-compiler", "~> 0"
+  spec.add_development_dependency "hoe", "~> 0"
 end
