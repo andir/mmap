@@ -4,8 +4,8 @@
 #
 # === WARNING
 # === The variables $' and $` are not available with gsub! and sub!
+require 'mmap/mmap' unless defined? Mmap
 require 'mmap/version'
-require 'mmap/mmap'
 
 class Mmap
   include Comparable
