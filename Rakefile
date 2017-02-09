@@ -22,6 +22,7 @@ end
 RET = Rake::ExtensionTask.new("mmap", HOE.spec) do |ext|
   ext.lib_dir = File.join('lib', 'mmap')
 end
+Rake::Task[:build].prerequisites << :compile
 
 # vim: syntax=ruby
 
