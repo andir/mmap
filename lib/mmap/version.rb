@@ -1,5 +1,5 @@
 # Version of mmap.
 
-class MmapVersion
-  VERSION = '0.2.7'
+module MmapVersion
+  VERSION = '0.2.7a'
 end

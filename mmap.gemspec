@@ -1,7 +1,5 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mmap/version'
+require File.expand_path('../lib/mmap/version', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = "mmap"
